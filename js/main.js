@@ -65,8 +65,12 @@ function getBookmarks() {
 		var name = bookmarks[i].name;
 		var url = bookmarks[i].url;
 
-		bookmarksList.innerHTML += "<div>" + name + "</div>" + "<a href=\"" + url + "\" target=\"_blank\">" + "Visit" + "</a>" 
-								+ "<br>" + "<a onclick=\"deleteBookmark('" + url + "')\" href=\"#\">Delete</a>";
+		bookmarksList.innerHTML += "<div class=\"bookmark\">" + 
+										"<div class=\"name\">" + name + "</div>" +
+										"<div class=\"url\">" + url + "</div>" +
+										"<a href=\"" + url + "\" class=\"btn btn-blue\" target=\"_blank\">" + "Visit" + "</a>" +
+										"<a onclick=\"deleteBookmark('" + url + "')\" href=\"#\" class=\"btn btn-red\">Delete</a>" +
+									"</div>";
 	}
 }
 
