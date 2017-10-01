@@ -9,6 +9,7 @@
 body {
 	background-color: #F2F4F7;
 	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -24,6 +25,7 @@ a {
 .header {
 	text-transform: capitalize;
 	text-align: center;
+	padding: 30px 0;
 }
 
 #bookmarkForm {
