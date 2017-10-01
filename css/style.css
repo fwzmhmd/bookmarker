@@ -11,6 +11,10 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .container {
 	width: 100%;
 	padding-left: 1em;
@@ -28,6 +32,7 @@ body {
 	font-size: 22px;
 	box-shadow: 0 2px 4px 0 rgba(160,160,161,0.50);
 	border-radius: 5px;
+	margin-bottom: 30px;
 }
 
 #bookmarkForm > .label {
@@ -58,7 +63,8 @@ input[type="text"]:focus {
 	border-radius: 2px;
 }
 
-button {
+button,
+.btn {
 	padding: 6px 20px;
 	display: inline;
 	text-transform: uppercase;
@@ -76,8 +82,38 @@ button:hover {
 	border-radius: 4px;
 }
 
+.btn-red {
+	background-color: #FF3636;
+}
 
+.btn-blue {
+	background-color: #0098DB;
+}
 
+a.btn-red {
+	margin-left: 6px;
+}
+
+.bookmark {
+	padding: 20px;
+	background-color: #fff;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(160,160,161,0.50);
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.bookmark > .name {
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+
+.bookmark > .url {
+	font-size: 18px;
+	color: rgba(0,0,0,0.4);
+	margin-bottom: 15px;
+}
 
 
 
