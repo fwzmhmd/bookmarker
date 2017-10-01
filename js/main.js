@@ -76,7 +76,7 @@ function getBookmarks() {
 
 function validateForm(siteName, siteUrl) {
 	if (!siteName || !siteUrl) {
-		alert("Please enter some values");
+		alert("Please fill in the fields");
 		return false;
 	}
 
@@ -85,7 +85,7 @@ function validateForm(siteName, siteUrl) {
 	var regex = new RegExp(expression);
 
 	if(!siteUrl.match(regex)){
-		alert("Please enter a valid url (Hint: Should begin with 'http://')");
+		alert("Please enter a Valid URL (Hint: URL should begin with 'http://')");
 		return false;
 	}
 	return true;

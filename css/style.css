@@ -117,6 +117,16 @@ a.btn-red {
 	margin-bottom: 15px;
 }
 
+@media (min-width: 1024px) {
+	body {
+		width: 50%;
+		margin: auto;
+	}
+}
 
-
-
+@media (min-width: 1280px) {
+	body {
+		width: 40%;
+		margin: auto;
+	}
+}
